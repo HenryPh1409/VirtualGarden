@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed - Virtual Garden</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Seed</div>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Navigation</a></li>
+                <li><a href="#">Task</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+        <button class="sign-in">Sign In</button>
+    </header>
+
+    <section class="welcome">
+        <h1>Welcome to the Virtual Garden!</h1>
+        <p>Join us in a delightful journey through our virtual garden. Plant seeds, nurture your garden, and watch it grow!</p>
+        <button class="explore">Explore</button>
+    </section>
+
+    <section class="seed-garden">
+        <h2>Seed Garden</h2>
+        <div class="seeds">
+            <div class="seed">
+                <img src="earth-seed.png" alt="Earth Seed">
+                <h3>Earth Seed</h3>
+            </div>
+            <div class="seed">
+                <img src="sun-spark.png" alt="Sun Spark">
+                <h3>Sun Spark</h3>
+            </div>
+            <div class="seed">
+                <img src="stillness-seed.png" alt="Stillness Seed">
+                <h3>Stillness Seed</h3>
+            </div>
+            <div class="seed">
+                <img src="sun-lamp.png" alt="Sun Lamp">
+                <h3>Sun Lamp</h3>
+            </div>
+            <div class="seed">
+                <img src="flowers.png" alt="Flowers">
+                <h3>Flowers</h3>
+            </div>
+            <div class="seed">
+                <img src="galaxy-seed.png" alt="Galaxy Seed">
+                <h3>Galaxy Seed</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="fertilizer">
+        <h2>Fertilizer</h2>
+        <p>Boost your garden's growth with our special fertilizer. Get it now!</p>
+        <button class="get-now">Get Now</button>
+    </section>
+
+    <section class="task">
+        <h2>Task</h2>
+        <div class="tasks">
+            <div class="task-item">
+                <h3>Plant 10 seeds of any kind</h3>
+                <p>10 FT</p>
+            </div>
+            <div class="task-item">
+                <h3>Water your garden daily for a week</h3>
+                <p>20 FT</p>
+            </div>
+            <div class="task-item">
+                <h3>Share your garden with friends</h3>
+                <p>30 FT</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ranking">
+        <h2>Ranking</h2>
+        <!-- Add ranking content here -->
+    </section>
+
+    <section class="team">
+        <h2>Team</h2>
+        <!-- Add team content here -->
+    </section>
+
+    <section class="news">
+        <h2>News</h2>
+        <!-- Add news content here -->
+    </section>
+
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
