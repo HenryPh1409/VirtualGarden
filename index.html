@@ -1,51 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seed - Virtual Garden</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Garden</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Seed</div>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#navigation">Navigation</a></li>
-                <li><a href="#task">Task</a></li>
-                <li><a href="#ranking">Ranking</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-        <button class="sign-in">Sign In</button>
-    </header>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Seed</div>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#tasks">Tasks</a>
+      <a href="#ranking">Ranking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="btn-signup">Sign Up</button>
+  </header>
 
-    <section id="welcome">
-        <h1>Welcome to the Virtual Garden!</h1>
-        <p>Join us for a delightful gardening experience in the virtual world...</p>
-        <button>Get Started</button>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to the Virtual Garden!</h1>
+    <p>Your journey to a greener world starts here. Explore the features, complete tasks, and climb the rankings.</p>
+    <button class="btn-start">Get Started</button>
+  </section>
 
-    <section id="seed-garden">
-        <h2>Seed Garden</h2>
-        <p>Plant your seeds of 'Fantasy' and watch them grow into your own personal virtual garden...</p>
-        <div class="seed-options">
-            <button>Earth Seed</button>
-            <button>Sun Spark</button>
-            <button>Stillwater</button>
-            <button>Sun Lamp</button>
-            <button>Flower</button>
-            <button>Blackened Seed</button>
-        </div>
-        <button>Get Seeds</button>
-    </section>
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Virtual Garden</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Earth Gem</h3>
+        <p>Description of the Earth Gem feature.</p>
+      </div>
+      <div class="card">
+        <h3>Sun Spark</h3>
+        <p>Description of the Sun Spark feature.</p>
+      </div>
+      <div class="card">
+        <h3>Vital Sprout</h3>
+        <p>Description of the Vital Sprout feature.</p>
+      </div>
+      <div class="card">
+        <h3>Star Leaf</h3>
+        <p>Description of the Star Leaf feature.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Additional Sections Here -->
+  <!-- Tasks Section -->
+  <section id="tasks" class="tasks">
+    <h2>Tasks</h2>
+    <div class="task-list">
+      <div class="task-card">
+        <h3>Daily Gardening Activity</h3>
+        <p>Time remaining: 05:27</p>
+      </div>
+      <div class="task-card">
+        <h3>Watering Essential Plants</h3>
+        <p>Time remaining: 19:45</p>
+      </div>
+      <div class="task-card">
+        <h3>Harvest Fruits</h3>
+        <p>Time remaining: 03:57</p>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>Contact Us: Your Name | Email | Subject | Message</p>
-    </footer>
+  <!-- Ranking Section -->
+  <section id="ranking" class="ranking">
+    <h2>Ranking</h2>
+    <div class="rank-list">
+      <div class="rank-card">01. Henry</div>
+      <div class="rank-card">02. Sophia</div>
+      <div class="rank-card">03. Jack</div>
+      <div class="rank-card">04. Delphin</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
